@@ -1,1 +1,3 @@
-# MovieFinder
+Movie Comparator 
+
+
