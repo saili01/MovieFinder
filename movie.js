@@ -12,7 +12,7 @@ const autoCompleteConfig={
     },
     //How to fetch the data from API and returning it
     async fetchData(searchTerm){
-        const response=await axios.get('http://www.omdbapi.com/',{
+        const response=await axios.get('https://www.omdbapi.com/',{
     params:{
         apikey:'8bc0044a',
         s:searchTerm,
@@ -53,7 +53,7 @@ createAutoComplete({
 let leftMovie;
 let rightMovie;
 const movieDesc=async (movie,summaryElement,side)=>{
-    const res=await axios.get('http://www.omdbapi.com/',{
+    const res=await axios.get('https://www.omdbapi.com/',{
         params:
         {
             apikey:'8bc0044a',
